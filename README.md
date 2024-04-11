@@ -33,6 +33,8 @@ python -m unittest
 ```
 TODO: results?
 
+All the tests passed. It correctly shows the number of processes.
+
 Report which kernel release version you tested your module on
 (hint: use `uname`, check for options with `man uname`).
 It should match release numbers as seen on https://www.kernel.org/.
