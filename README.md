@@ -1,20 +1,20 @@
 # A Kernel Seedling
 TODO: intro
-Proggggrammm coooountttts thhhe processes running.
+Program counts the processes running.
 
 ## Building
 ```shell
 TODO: cmd for build
 ```
-make ----- commands    to ruuuun innn the shell   to bbbuilllld
+commands to run in the shell to build - 
+
+make
 sudo insmod proc_count.c
 
 ## Running
 ```shell
 TODO: cmd for running binary
 ```
-TODO: results?
-
 cd /proc/
 cat count
 
@@ -31,7 +31,6 @@ rmmod proc_count
 ```python
 python -m unittest
 ```
-TODO: results?
 
 All the tests passed. It correctly shows the number of processes.
 
@@ -42,5 +41,5 @@ It should match release numbers as seen on https://www.kernel.org/.
 ```shell
 uname -r -s -v
 ```
-TODO: kernel ver
+kernel version:
 Linux 5.14.8-arch1-1 #1 SMP PREEMPT Sun, 26 Sep 2021 19:36:15 +0000
